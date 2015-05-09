@@ -1,0 +1,23 @@
+table {
+        background-color: lightblue;
+    	font-family: Verdana;
+    	border: 1px solid grey;
+    	margin:5px;
+    	padding: 8px;
+}
+
+table {
+
+	text-align: left;
+}
+b
+{
+margin: 5px;
+font-style: normal;
+text-align: center;
+}
+
+p {
+
+	color: black;
+}

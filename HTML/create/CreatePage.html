@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CREATE USER PAGE</title>
+<meta name="CREATE USER PAGE" content="With this page, we can create new users">
+<meta author="AJAY VIDEKAR" content="PROJECT DEMO">
+<!-- Loading Bootstrap -->
+    <link href="dist/css/vendor/bootstrap.min.css" rel="stylesheet">
+    <!-- Loading Flat UI -->
+    <link href="dist/css/flat-ui.css" rel="stylesheet">
+    <link href="docs/assets/css/demo.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+</head>
+<body bgcolor="RED">
+<center>
+<h1 class="demo-section-title">Please enter your personal details</h1>
+<br><br>
+<form method="get" action="http://localhost:9999/CreateRecord">
+<!--
+?first_name=ajay&last_name=videkar&phone_no=1231231&address=1050"
+-->
+<hr>
+<table>
+<tr>
+<td><b>First Name</b> :  </td><td><input type="text" name = "first_name" class="form-control"></td>
+</tr>
+<hr>
+<tr>
+<td><b>Last Name</b> :  </td><td><input type="text" name= "last_name" class="form-control"></td>
+</tr>
+<tr>
+<td><b>Phone Number</b>: </td><td><input type="text" name= "phone_no" class="form-control"></td>
+</tr>
+ <tr>
+ <td><b>Address</b> : </td><td><textarea rows="3" cols="22" name ="address" placeholder="Maximum 200 characters"></textarea></td>
+ </tr>
+
+</table>
+ <br><br>
+ <input type="submit" class="btn btn-block btn-lg btn-primary" value="Submit">
+  <input type="reset" class="btn btn-block btn-lg btn-danger" value="Reset">
+ </form>
+</center>
+</body>
+</html>
